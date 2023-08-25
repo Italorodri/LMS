@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Figurinhas</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- Estilo da pagina  -->
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+        #img1{
+            height: 300px;
+            width: 400px;
+        }
+        form{
+          margin-left: 800px;
+          margin-top: -580px;
+        }
+        
+    </style>
+
+</head>
+<body>
+  
+  <center><h1> Figurinhas Extras da Copa Do Mundo 2022 </h1> </center> 
+
+<!-- Quebra de Linha--> 
+<br>
+
+<ul>
+
+<!-- Questão 01 - Substituindo a tag "div" por "section" pois possui bastante semelhança em sua forma de estruturar e dividir os assuntos-->
+<section>
+  <p>Clique na imagem para saber mais informações sobre as figurinhas extras! </p>
+    <li><a href="https://encurtador.com.br/oTUX3">
+        <img id="img1" src="img/figurinhasExtras.webp">
+    </a>
+    </li>
+</section>
+<br>
+
+<section>
+  <li>História da Panini, empresa responsável pela a produção das figurinhas:
+    <a href="https://encurtador.com.br/iqETV"> Clque aqui!</a>
+  </li>
+</section>
+
+<section>
+  <li>Saiba a importância de colecionar figurinhas: 
+    <a href="https://encurtador.com.br/vAQZ4"> Clque aqui!</a>
+  </li>
+</section>
+
+</ul>
+
+<h2> Informações Sobre o Neymar na copa: </h2>
+
+<table border="1">
+
+    <thead>
+      <tr>
+        <th>Neymar</th>
+      </tr>
+    </thead>
+    
+    <tr>
+      <td>Partidas:</td>
+      <td><strong>4</strong></td>
+    </tr>
+
+      <tr>
+        <td>Gols na copa:</td>
+        <td><strong>2</strong></td>
+      </tr>
+
+      <tr> 
+        <td>Assistências:</td>
+        <td><strong>1</strong></td>
+      </tr>
+    
+</table>
+
+
+<!-- Questão 02 adicionando a tag article para um novo artigo, contendo um formulário-->
+<article>
+<form action="https://www.w3schools.com/action_page.php">
+
+  <h2> Se cadastre agora para receber promoções incríveis: </h2>
+  
+  <!--Questão 02 A) criação de um campo de texto, e limitando as caracteres com a tag maxlength -->
+  <label for="nome">Nome:</label>
+  <input type="text" name="nome" maxlength=15> 
+  <br>
+
+  <!--Questão 02 B) Campo de texto com a tag readonly para apenas leitura-->
+  <label for="figurinha">Figurinha Extra mais valiosa:</label>
+  <input type="text" name="figurinha" value="Neymar Ouro" readonly>
+  <br>
+
+  <!--Questão 02 C) Campo de numerico para senha, utilizando as tags min e max para especificar -->
+  <label for="senha">Escolha uma Senha entre 25000 e 30000:</label>
+  <input type="number" name="senha" min="25000" max="30000"> 
+  <br>
+  
+  <!--Questão 02 D) Criação de um input tipo radiobox para a marcação de apenas uma alternativa -->
+  <p>Que tipo de colecionador é você:</p>
+  <input type="radio" name="colecionador" value="fanatico">
+  <label for="fanatico">Fanático</label><br>
+  <input type="radio" name="colecionador" value="moderado">
+  <label for="css">Moderado</label><br>
+  <input type="radio" name="colecionador" value="diversao">
+  <label for="javascript">Diversão</label><br>
+  
+  <!--Questão 02 E) Criação de um input tipo checkbox para a marcação de uma ou mais alternativas -->
+  <p>Selecione as figurinhas que você deseja:</p>
+  <input type="checkbox" name="FigurinhaDesejada" value="messi">
+  <label for="messi"> Messi Ouro, Prata, Bronze </label><br>
+  <input type="checkbox" name="FigurinhaDesejada" value="cr7">
+  <label for="cr7"> CR7 Ouro, Prata, Bronze </label><br>
+  <input type="checkbox" name="FigurinhaDesejada" value="mbappe">
+  <label for="mbappe"> Mbappé Ouro, Prata, Bronze</label>
+  <br><br>
+  <input type="submit" value="Cadastrar">
+
+</form>
+</article>
+
+</body>
+</html>
